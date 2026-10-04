@@ -1,0 +1,7 @@
+bill=float(input("What is the total Bill"))
+tip=int(input("How much Tip you want to pay ? 10-12-15%"))
+split=int(input("How many people will split the Bill?"))
+totalbill=bill+(bill*tip/100)
+print(f"Total bill is {bill}")
+finalpay=round(float(totalbill/split),2)
+print(f"final bill split is {finalpay}")
